@@ -2,17 +2,24 @@
 @import "reset.css";
 @import "variables.css";
 
-/*Components*/
+/* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
-/*Screens*/
+/* Screens */
 @import "screens/welcome.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
 body {
   color: rgb(42, 42, 42);
   font-family: "Open Sans", sans-serif;
